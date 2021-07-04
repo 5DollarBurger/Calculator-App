@@ -206,7 +206,7 @@
             android:layout_weight="1"
             android:text="C"
             android:textSize="50dp"
-            android:onClick="onDigit"
+            android:onClick="onClear"
             />
         <Button
             android:id="@+id/btnPlus"
