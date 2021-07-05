@@ -14,6 +14,8 @@
         android:layout_height="250dp"
         android:textSize="48sp"
         android:maxLength="12"
+        android:padding="10dp"
+        android:gravity="right|center_vertical|bottom"
         />
 
     <!--    ROW1-->
@@ -63,7 +65,7 @@
             android:layout_weight="1"
             android:text="/"
             android:textSize="50dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
 
     </LinearLayout>
@@ -114,7 +116,7 @@
             android:layout_weight="1"
             android:text="*"
             android:textSize="50dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
 
     </LinearLayout>
@@ -165,7 +167,7 @@
             android:layout_weight="1"
             android:text="-"
             android:textSize="50dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
 
     </LinearLayout>
@@ -196,7 +198,7 @@
             android:layout_weight="1"
             android:text="."
             android:textSize="50dp"
-            android:onClick="onDigit"
+            android:onClick="onDecimal"
             />
         <Button
             android:id="@+id/btnClear"
@@ -216,7 +218,7 @@
             android:layout_weight="1"
             android:text="+"
             android:textSize="50dp"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             />
 
     </LinearLayout>
@@ -237,7 +239,7 @@
             android:layout_weight="1"
             android:text="="
             android:textSize="50dp"
-            android:onClick="onDigit"
+            android:onClick="onEqual"
             />
 
     </LinearLayout>
